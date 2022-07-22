@@ -1,0 +1,12 @@
+
+#main{
+  height: calc(100vh - $headerHight - $footHight) ;
+  background:orange;
+}
+.navbar{
+  height: $headerHight;
+}
+#footer{
+  height: $footHight;
+  line-height: $footHight;
+}
